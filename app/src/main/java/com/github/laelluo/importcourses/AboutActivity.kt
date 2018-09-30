@@ -6,7 +6,6 @@ import mehdi.sakout.aboutpage.AboutPage
 import mehdi.sakout.aboutpage.Element
 
 class AboutActivity : AppCompatActivity() {
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         var count = 1

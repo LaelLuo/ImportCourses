@@ -188,7 +188,7 @@ fun parseCourses(coursesHtml: Document): List<Course> {
         val it = listIterator.next()
         if (it.startsWith("星期")) {
             day = when (it) {
-                "星期天" -> Calendar.SUNDAY
+                "星期日" -> Calendar.SUNDAY
                 "星期一" -> Calendar.MONDAY
                 "星期二" -> Calendar.TUESDAY
                 "星期三" -> Calendar.WEDNESDAY
